@@ -49,7 +49,10 @@ body {
   .Home{
       color: black;
       position: absolute;
-      margin-top: 200px;
+      margin-top: 150px;
+      padding: 20px;
+      margin-left: -220px;
+      
   }
 
   .Firearms{
@@ -76,6 +79,24 @@ body {
     color: black;
     position: absolute;
     margin-top: 200px;
+  }
 
-}
+  .Banner{
+    background-image: url("Banner.jpeg");
+    background-size:cover;
+    width: 1250px;
+    border: 1px solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    
+  }
+
+  .BannerContent1, .BannerContent2{
+  
+    padding-left: 10px;
+    padding-right: 5px;
+
+  }
+
+
 
