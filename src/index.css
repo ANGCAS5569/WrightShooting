@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.Navbar{
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("tackrack.jpg");
+    background-size: cover;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    background-color: white;
+    padding: 15px;
+    margin: 0;
+  }
+
+.nav-buttons{
+    padding-top: 7%;
+    display: flex;
+    
 }
+
+.logo{
+    height: 62px;
+    margin-top: 80px;
+    
+}
+
+.header{
+    display: flex;
+    list-style: none;
+    padding: 18px;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 30px;
+    background-color: rgba(96,106,106,0.42);
+    position: absolute;
+    margin:80px 201px;
+    
+    
+    
+}
+
+.active {
+    background-color: black;
+    color:blanchedalmond;
+  }
+
+  .Home{
+      color: black;
+      position: absolute;
+      margin-top: 200px;
+  }
+
+  .Firearms{
+    color: black;
+    position: absolute;
+    margin-top: 200px;
+
+  }
+
+  .Shop{
+    color: black;
+    position: absolute;
+    margin-top: 200px;
+
+  }
+
+  .Contact{
+    color: black;
+    position: absolute;
+    margin-top: 200px;
+  }
+
+  .TackRack{
+    color: black;
+    position: absolute;
+    margin-top: 200px;
+
+}
+
