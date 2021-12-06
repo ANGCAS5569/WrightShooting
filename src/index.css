@@ -4,6 +4,7 @@
     justify-content: space-between;
     background-image: url("tackrack.jpg");
     background-size: cover;
+    
 
 }
 
@@ -17,11 +18,33 @@ body {
     padding-top: 7%;
     display: flex;
     
+    
+}
+
+li Navlink{
+  text-decoration: none;
+  color:black;
+}
+
+li Navlink:visited{
+  text-decoration: none;
+  color:black;
+}
+
+li Navlink:hover{
+  text-decoration: none;
+  color:black;
+}
+
+li Navlink:focus{
+  text-decoration: none;
+  color:black;
 }
 
 .logo{
     height: 62px;
-    margin-top: 80px;
+    margin-top: -9px;
+    opacity: 80%;
     
 }
 
@@ -35,24 +58,23 @@ body {
     gap: 30px;
     background-color: rgba(96,106,106,0.42);
     position: absolute;
-    margin:80px 201px;
+    margin:-9px 201px;
     
     
     
 }
 
 .active {
-    background-color: black;
+    background-color: rgba(0,0,0,0.65);
+    padding: 18px 10px;
     color:blanchedalmond;
+    text-decoration: none;
   }
 
   .Home{
-      color: black;
-      position: absolute;
-      margin-top: 150px;
-      padding: 20px;
-      margin-left: -220px;
-      
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
   }
 
   .Firearms{
@@ -84,10 +106,12 @@ body {
   .Banner{
     background-image: url("Banner.jpeg");
     background-size:cover;
-    width: 1250px;
+    width: 1210px;
     border: 1px solid;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 600;
+    position: absolute;
+    margin-top: 160px;
+    padding: 20px;
+    margin-left: -203px;
     
   }
 
@@ -96,6 +120,69 @@ body {
     padding-left: 10px;
     padding-right: 5px;
 
+  }
+
+  .Email{
+    background-color: gray;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: -203px;
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: large;
+    padding: 5px;
+    
+
+  }
+
+  input[type=text]{
+    width: 100%;
+    height: 100%;
+    padding: 8px 60px;
+    box-sizing: border-box;
+    margin-top: -2px;
+    font-weight: 600;
+    font-size: medium;
+    text-align: left;
+    border-radius: 4px;
+  }
+
+  .button1{
+    background-color:maroon; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+
+  .button1:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+
+  }
+
+  .training{
+    text-align: center;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 200px;
+    background-color: rgb(167, 164, 164);
+    border: 2px black;
+  }
+
+  .training > p{
+    font-weight: 1600;
+    
   }
 
 

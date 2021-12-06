@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Image from './training.jpg';
  
 class Home extends Component {
   render() {
@@ -10,6 +11,17 @@ class Home extends Component {
             sisters with comprehensive training and support that bridges the gap between 
             basic level shooting skills to advanced techniques. </p>
         </div> 
+        <div className = "Email">
+          <h4>Join our mailing list<br></br>Never miss an Update!</h4>
+          <input type="text" id="email" name="email" ></input>
+            <br></br>
+            <br></br>
+          <button className="button1">Subscribe Now</button>
+        </div>
+        <div className = "training">
+          <img button src={Image} alt="training picture" width="300"></img>
+          <p ClassName= "training-info">TRAINING<br></br>CLASS INFO</p>
+        </div>
       </div>
     );
   }
