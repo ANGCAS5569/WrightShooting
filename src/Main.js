@@ -18,6 +18,8 @@ class Main extends Component {
             <HashRouter>            
                 <nav className = "Navbar">
                     <div className = "nav-buttons">
+                        <div className = "right"></div>
+                        <div className= "left"></div>
                         <img src="logo.jpg" alt="" className="logo"/>
                         <ul className = "header">
                             <li><NavLink exact to="/">Home</NavLink></li>
