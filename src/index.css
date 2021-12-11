@@ -4,14 +4,14 @@
     justify-content: space-between;
     background-image: url("tackrack.jpg");
     background-size: cover;
-    
 
 }
 
 body {
     background-color: white;
-    padding: 15px;
-    margin: 0;
+    padding: 0px 655px;
+    margin: 0 auto;
+
   }
 
 .nav-buttons{
@@ -43,7 +43,7 @@ li Navlink:focus{
 
 .logo{
     height: 62px;
-    margin-top: -9px;
+    margin-top: 72px;
     opacity: 80%;
     
 }
@@ -58,7 +58,7 @@ li Navlink:focus{
     gap: 30px;
     background-color: rgba(96,106,106,0.42);
     position: absolute;
-    margin:-9px 201px;
+    margin:72px 201px;
     
     
     
@@ -178,11 +178,21 @@ li Navlink:focus{
     margin-left: 200px;
     background-color: rgb(167, 164, 164);
     border: 2px black;
+    
+  }
+
+  .targets{
+    text-align: center;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 550px;
+    background-color: rgb(167, 164, 164);
+    border: 2px black;
   }
 
   .training > p{
     font-weight: 1600;
-    
+    font-style: bold;
   }
 
 

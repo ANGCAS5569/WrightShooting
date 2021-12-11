@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Image from './training.jpg';
+import Image2 from './targets.JPG';
  
 class Home extends Component {
   render() {
@@ -21,6 +22,10 @@ class Home extends Component {
         <div className = "training">
           <img button src={Image} alt="training picture" width="300"></img>
           <p ClassName= "training-info">TRAINING<br></br>CLASS INFO</p>
+        </div>
+        <div className = "targets">
+          <img button src={Image2} alt="targets picture" width="300" height="198"></img>
+          <p ClassName= "targets-info">TARGETS<br></br>SHOP</p>
         </div>
       </div>
     );
