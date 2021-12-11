@@ -4,6 +4,7 @@
     justify-content: space-between;
     background-image: url("tackrack.jpg");
     background-size: cover;
+    margin-right: -12px;
 
 }
 
@@ -15,7 +16,7 @@ body {
   }
 
 .nav-buttons{
-    padding-top: 7%;
+    padding-top: 7.8%;
     display: flex;
     
     
@@ -210,9 +211,36 @@ li Navlink:focus{
     border: 2px black;
   }
 
-  .training > p{
-    font-weight: 1600;
-    font-style: bold;
+  .training-info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: large;
+  }
+
+  .targets-info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: large;
+  }
+
+  .classReviews{
+    background-color: rgb(167, 164, 164);
+    position: absolute;
+    margin-top: 650px;
+    margin-left: -203px;
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: large;
+    padding: 180px 12px;
+  }
+
+  .testimonials{
+    font-size: small;
+    background-color: white;
+    padding: 0px 15px;
+    text-align: left;
   }
 
 
