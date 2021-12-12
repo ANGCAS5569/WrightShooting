@@ -34,41 +34,41 @@ class Home extends Component {
             <p className= "targets-info">TARGETS<br></br>SHOP</p></a>
         </div>
         <div className ="classReviews">
-        <h4>Check out some of our Class<br></br>Reviews!</h4>
+          <h4>Check out some of our Class<br></br>Reviews!</h4>
         <div className="testimonials">
-          <p >This class was extremely informative and allowed for <br></br>
-            the students to identify their weakness. The class <br></br>
-            also gave students new training scenarios and techniques <br></br>
-            to apply while teaching. During the class Brandon included <br></br>
-            all of the students while he explained a course and he was <br></br>
-            very humble and didn't make his students feel belittled <br></br>
-            because of his extensive training. Overall great class</p>
-          <p>Domonic Zammit   Dec 8, 2021</p>
+            <p >This class was extremely informative and allowed for <br></br>
+              the students to identify their weakness. The class <br></br>
+              also gave students new training scenarios and techniques <br></br>
+              to apply while teaching. During the class Brandon included <br></br>
+              all of the students while he explained a course and he was <br></br>
+              very humble and didn't make his students feel belittled <br></br>
+              because of his extensive training. Overall great class</p>
+            <p>Domonic Zammit   Dec 8, 2021</p>
           <br></br>
-          <p >This class was extremely informative and allowed for <br></br>
-            the students to identify their weakness. The class <br></br>
-            also gave students new training scenarios and techniques <br></br>
-            to apply while teaching. During the class Brandon included <br></br>
-            all of the students while he explained a course and he was <br></br>
-            very humble and didn't make his students feel belittled <br></br>
-            because of his extensive training. Overall great class</p>
-          <p>Domonic Zammit   Dec 8, 2021</p>
+            <p >This class was extremely informative and allowed for <br></br>
+              the students to identify their weakness. The class <br></br>
+              also gave students new training scenarios and techniques <br></br>
+              to apply while teaching. During the class Brandon included <br></br>
+              all of the students while he explained a course and he was <br></br>
+              very humble and didn't make his students feel belittled <br></br>
+              because of his extensive training. Overall great class</p>
+            <p>Domonic Zammit   Dec 8, 2021</p>
           <br></br>
-          <p >Brandon's Pistol Optics class is well worth your time to <br></br>
-            attend. It's a detailed progression to transition an iron <br></br>
-            sights handgun shooter to a dot with twenty hours of work. <br></br>
-            It's simple enough for a basic shooter, but will challenge <br></br>
-            more advanced shooters to get faster and more accurate. His <br></br>
-            class will be very influential on our red dot handgun program.</p>
-          <p>D/S David Lane   Nov 24, 2021</p>
+            <p >Brandon's Pistol Optics class is well worth your time to <br></br>
+              attend. It's a detailed progression to transition an iron <br></br>
+              sights handgun shooter to a dot with twenty hours of work. <br></br>
+              It's simple enough for a basic shooter, but will challenge <br></br>
+              more advanced shooters to get faster and more accurate. His <br></br>
+              class will be very influential on our red dot handgun program.</p>
+            <p>D/S David Lane   Nov 24, 2021</p>
           <br></br>
-          <p >Brandon's Pistol Optics class is well worth your time to <br></br>
-            attend. It's a detailed progression to transition an iron <br></br>
-            sights handgun shooter to a dot with twenty hours of work. <br></br>
-            It's simple enough for a basic shooter, but will challenge <br></br>
-            more advanced shooters to get faster and more accurate. His <br></br>
-            class will be very influential on our red dot handgun program.</p>
-          <p>D/S David Lane   Nov 24, 2021</p>
+            <p >Brandon's Pistol Optics class is well worth your time to <br></br>
+              attend. It's a detailed progression to transition an iron <br></br>
+              sights handgun shooter to a dot with twenty hours of work. <br></br>
+              It's simple enough for a basic shooter, but will challenge <br></br>
+              more advanced shooters to get faster and more accurate. His <br></br>
+              class will be very influential on our red dot handgun program.</p>
+            <p>D/S David Lane   Nov 24, 2021</p>
           </div>
         </div>
         <div className = "topPicks"><h2>TOP PICKS:</h2></div>
@@ -91,9 +91,11 @@ class Home extends Component {
               <img button src={Image5} alt="holo" width="300" height="198"></img>
               <p className= "holo-info">Holosun Technologies, 
               407K-X2,
-              <br></br> Red Dot, 6 MOA Dot, Black,
-              <br></br> Side Battery</p>
-                <p>$205</p>
+              <br></br>
+               Red Dot, 6 MOA Dot, Black,
+              <br></br> 
+              Side Battery</p>
+              <p>$205</p>
               </a>
         </div>
         <div className="footer">

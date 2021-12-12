@@ -1,11 +1,27 @@
 .Navbar{
-    height: 230px;
-    display: flex;
-    justify-content: space-between;
-    background-image: url("tackrack.jpg");
-    background-size: cover;
-    margin-right: -12px;
 
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    padding: 100px 491px;
+    margin-top: 20px;;
+
+}
+
+.Nav-background{
+  background-image: url("tackrack.jpg");
+  background-size: cover;
+  padding: 127px 680px;
+  position: absolute;
+  margin-left: 240px;
+}
+
+
+
+.logo{
+  position:absolute;
+  margin-left: -251px;
+  
 }
 
 body {
@@ -25,22 +41,24 @@ body {
 .left{
 
   background-color: rgb(167, 164, 164);
-  padding: 971px 300px;
+  padding: 1043.5px 300px;
   position: absolute;
   margin-top: -100px;
-  margin-left: -650px;
+  margin-left: -360px;
 }
 
 .right{
 
   background-color: rgb(167, 164, 164);
-  padding: 971px 300px;
+  padding: 1043.5px 300px;
   position: absolute;
   margin-top: -100px;
-  margin-left: 1300px;
+  margin-left: 1600px;
   
  
 }
+
+
 
 li Navlink{
   text-decoration: none;
@@ -79,7 +97,7 @@ li Navlink:focus{
     gap: 30px;
     background-color: rgba(96,106,106,0.42);
     position: absolute;
-    margin:72px 201px;
+    margin:72px -50px;
     
     
     
@@ -347,7 +365,7 @@ li Navlink:focus{
     position:absolute;
     margin-top: 1500px;
     margin-left: -251px;
-    padding: 100px 491px;
+    padding: 100px 515.5px;
     background-position: center;
     background-image: url(shells.jpg);
     background-size: cover;

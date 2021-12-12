@@ -15,15 +15,18 @@ class Main extends Component {
     render(){
 
         return(
+            <div>
+                <div className = "right"></div>
+                <div className= "left"></div>
+                <div className= "Nav-background"></div>
             <HashRouter>            
                 <nav className = "Navbar">
                     <div className = "nav-buttons">
-                        <div className = "right"></div>
-                        <div className= "left"></div>
+                        
                         <img src="logo.jpg" alt="" className="logo"/>
                         <ul className = "header">
                             <li><NavLink exact to="/">Home</NavLink></li>
-                            <li><NavLink to="/firearms">Firearms Training</NavLink></li>
+                            <li><NavLink to="/firearms">Training</NavLink></li>
                             <li><NavLink to="/shop">Shop</NavLink></li>
                             <li><NavLink to="/tackrack">TackRack</NavLink></li>
                             <li><NavLink to="/contact">Contact</NavLink></li>
@@ -41,6 +44,7 @@ class Main extends Component {
                     
                 </nav>
             </HashRouter>
+        </div>
         );
 
     }
