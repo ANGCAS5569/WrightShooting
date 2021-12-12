@@ -199,6 +199,19 @@ li Navlink:focus{
     margin-left: 360px;
     background-color: rgb(167, 164, 164);
     border: 2px black;
+    padding: 5px;
+    
+  }
+
+  .training:hover{
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 360px;
+    background-color: grey;
+    border: 2px black;
+    padding: 5px;
     
   }
 
@@ -209,6 +222,17 @@ li Navlink:focus{
     margin-left: 749px;
     background-color: rgb(167, 164, 164);
     border: 2px black;
+    padding: 5px;
+  }
+
+  .targets:hover{
+    text-align: center;
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 749px;
+    background-color: grey;
+    border: 2px black;
+    padding: 5px;
   }
 
   .training-info{
@@ -233,14 +257,16 @@ li Navlink:focus{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     font-size: large;
-    padding: 180px 12px;
+    padding: 30px 12px;
   }
 
   .testimonials{
     font-size: small;
     background-color: white;
-    padding: 0px 15px;
+    padding: 2px 5px;
     text-align: left;
+    overflow-y: scroll;
+    height: 600px;
   }
 
 
